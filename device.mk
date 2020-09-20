@@ -14,10 +14,10 @@ TARGET_SCREEN_HEIGHT := 2246
 TARGET_SCREEN_WIDTH := 1080
 
 # FM
-PRODUCT_PACKAGES += \
-    FM2 \
-    libqcomfm_jni \
-    qcom.fmradio
+#PRODUCT_PACKAGES += \
+#    FM2 \
+#    libqcomfm_jni \
+#    qcom.fmradio
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -82,5 +82,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/uinput-goodix.kl:system/usr/keylayout/uinput-goodix.kl
 
 # PocketMode
-PRODUCT_PACKAGES += \
-    XiaomiPocketMode
+#PRODUCT_PACKAGES += \
+#    XiaomiPocketMode
