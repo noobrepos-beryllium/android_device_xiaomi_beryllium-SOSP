@@ -673,7 +673,7 @@
                 <string ...>M -5,0 L -5,10 L 5,10 L 5,0 Z @dp</string>
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
-    <string translatable="false" name="config_mainBuiltInDisplayCutout">M -270,0 L -270,86 L 270,86 L 270,0 Z</string>
+    <string translatable="false" name="config_mainBuiltInDisplayCutout">M -270,0 L -270,88 L 270,86 L 270,0 Z</string>
 
     <!-- All the capabilities of the LEDs on this device, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
@@ -710,7 +710,7 @@
     <integer name="config_deviceLightCapabilities">232</integer>
     
     <!-- Height of the status bar -->
-    <dimen name="status_bar_height_portrait">86.0px</dimen>
+    <dimen name="status_bar_height_portrait">88.0px</dimen>
     <dimen name="status_bar_height_landscape">24.0dp</dimen>
     <dimen name="rounded_corner_radius_top">104px</dimen>
 
