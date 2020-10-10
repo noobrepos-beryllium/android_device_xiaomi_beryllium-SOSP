@@ -10,6 +10,11 @@ $(call inherit-product, device/xiaomi/beryllium/device.mk)
 $(call inherit-product, vendor/sosp/config/common.mk)
 TARGET_INCLUDE_STOCK_ARCORE := true
 
+# All components inherited here go to system_ext image
+#
+$(call inherit-product, $(SRC_TARGET_DIR)/product/handheld_system_ext.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := sosp_beryllium
 PRODUCT_DEVICE := beryllium
